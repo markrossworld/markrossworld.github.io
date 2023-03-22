@@ -1,13 +1,47 @@
 body {
+    background-color: lightgray;
+    user-select: none;
+    text-align: center;
     padding: 0;
     margin: 0;
 }
-
-#content {
-    height: 100vh;
-    width: 100vw;
+#globec {
+    font-style: italic;
+    font-size: 3vw;
+    text-align: center;
+    background-image: linear-gradient(rgb(0, 51, 153), rgb(52, 90, 165));
+    color: white;
 }
 #mark {
-    height: 100%;
-    width: 100%;
+    text-align: center;
 }
+#markjpg {
+    width: 50vw;
+    padding-top: 10pt;
+}
+.globe {
+    height: 15vh;
+}
+.hor-menu {
+    display: grid;
+    background-color: #6262f1;
+    color: rgb(255, 255, 255);
+}
+.hor-cont {
+    display: inline-grid;
+    padding-left: 1vh;
+    padding-right: 1vh;
+}
+.hor-cont-last {
+    display: inline-grid;
+    padding-left: 80%;
+    padding-right: 1vh;
+}
+#login {
+    background-color: black;
+    color: white;
+    background-image: url(https://cdn.discordapp.com/attachments/932031165060231208/932031245628616754/1.jpg);
+  }
+  .shadow {
+    text-shadow: 2px 2px #ff0000;
+  }
